@@ -16,33 +16,33 @@ public class FXMLController {
 	
 	private Model model;
 
-    @FXML
+	@FXML
     private ResourceBundle resources;
 
     @FXML
     private URL location;
 
     @FXML
-    private ComboBox<?> boxStazione;
+    private ComboBox<?> boxLandmark;
 
     @FXML
-    private Button btnConta;
+    private Button btnElenca;
 
     @FXML
-    private TextField txtDistanza;
+    private TextField txtSimulationDate;
 
     @FXML
-    private Button btnCerca;
+    private Button btnSimula;
 
     @FXML
     private TextArea txtResult;
 
     @FXML
     void initialize() {
-        assert boxStazione != null : "fx:id=\"boxStazione\" was not injected: check your FXML file 'Bike.fxml'.";
-        assert btnConta != null : "fx:id=\"btnConta\" was not injected: check your FXML file 'Bike.fxml'.";
-        assert txtDistanza != null : "fx:id=\"txtDistanza\" was not injected: check your FXML file 'Bike.fxml'.";
-        assert btnCerca != null : "fx:id=\"btnCerca\" was not injected: check your FXML file 'Bike.fxml'.";
+        assert boxLandmark != null : "fx:id=\"boxLandmark\" was not injected: check your FXML file 'Bike.fxml'.";
+        assert btnElenca != null : "fx:id=\"btnElenca\" was not injected: check your FXML file 'Bike.fxml'.";
+        assert txtSimulationDate != null : "fx:id=\"txtSimulationDate\" was not injected: check your FXML file 'Bike.fxml'.";
+        assert btnSimula != null : "fx:id=\"btnSimula\" was not injected: check your FXML file 'Bike.fxml'.";
         assert txtResult != null : "fx:id=\"txtResult\" was not injected: check your FXML file 'Bike.fxml'.";
 
     }
