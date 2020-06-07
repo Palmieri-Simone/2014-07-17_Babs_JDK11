@@ -10,7 +10,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
-//controller turno A --> switchare al branch master_turno B per turno B
+//controller turno B --> switchare al branch master_turnoA per turno A
 
 public class FXMLController {
 	
